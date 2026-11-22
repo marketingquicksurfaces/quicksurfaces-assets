@@ -1,9 +1,10 @@
 # QuickSurfaces · Assets
 
 Todas las imágenes, logos, ilustraciones y PDFs de QuickSurfaces en un solo lugar.
-Lo usan **dos apps separadas**:
+Lo usan estas apps:
 - la **web principal** (quicksurfaces);
-- **Condo** (la app de comunidades como Siena Reserve).
+- **Condo** (la app de comunidades como Siena Reserve);
+- **Surfaces** (surfacesgama.com, el catálogo marca blanca para instaladores).
 
 Lo que comparten va en `compartido/`. Lo que es solo de una app va en su carpeta.
 
@@ -19,11 +20,15 @@ quicksurfaces-assets/
 │   ├── site/                  hero, foto de pisos, foto de escaleras, sección de escaleras, teléfono Roomvo
 │   ├── projects/<proyecto>/   01.webp (portada), 02.webp, 03.webp
 │   └── illustrations/categories/   ilustraciones de las 6 categorías (SVG para Figma + PNG)
+├── surfaces/                  ← solo la app Surfaces (sin marca QuickSurfaces)
+│   ├── brand/                 logo de Surfaces (horizontal, vertical, ícono, ícono de app) en SVG + PNG
+│   └── guides/                guías genéricas: instalación, limpieza y garantía (CPF)
 └── condo/                     ← solo la app Condo
     ├── banners/               banner de entrada de cada comunidad
     ├── projects/<comunidad>/  fotos de trabajos hechos en esa comunidad
     ├── renders/<comunidad>/<modelo>/   vertical.webp, dollhouse-1er-piso.jpg, dollhouse-2do-piso.jpg
-    └── stairs/                fotos y diagrama del Square Step Nose
+    ├── stairs/                fotos y diagrama del Square Step Nose
+    └── illustrations/stairs/  ilustraciones SVG de las escaleras
 ```
 
 ## Productos: una sola foto para todas las apps
