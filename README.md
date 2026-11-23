@@ -52,6 +52,10 @@ Esas 3 colecciones las usa también la web, así que no se duplican.
 
 ## Qué falta
 
+La lista **siempre al día** está en el admin: **Productos → Fotos**. Lee esta carpeta, muestra qué foto falta
+(también de productos nuevos), cuáles están listas y, con **Vincular**, conecta cada foto con su producto y color.
+
+
 Abre **`LISTA-DE-FOTOS.csv`** (en Excel o Google Sheets). Cada fila es una foto, con la app que la usa,
 el producto, el color, el código y si **YA ESTÁ** o **FALTA**.
 
